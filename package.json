@@ -1,0 +1,39 @@
+{
+  "name": "gatsby-page-load-delay",
+  "version": "0.0.0",
+  "description": "A Gatsby plugin to delay page loading.",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "prepublish": "npm run build"
+  },
+  "main": "index.js",
+  "homepage": "https://github.com/escaladesports/gatsby-page-load-delay",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/escaladesports/gatsby-page-load-delay.git"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "page",
+    "animation",
+    "delay"
+  ],
+  "author": "Kennedy Rose <kennedy@escaladesports.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-rewire": "^1.1.0",
+    "babel-plugin-transform-async-to-generator": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "history": "^4.7.2"
+  }
+}
