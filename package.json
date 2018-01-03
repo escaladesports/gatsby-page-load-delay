@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-page-load-delay",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Gatsby plugin to delay page loading.",
   "scripts": {
     "build": "babel src --out-dir .",
