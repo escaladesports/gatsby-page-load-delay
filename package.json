@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-page-load-delay",
+  "name": "gatsby-plugin-page-load-delay",
   "version": "0.1.0",
   "description": "A Gatsby plugin to delay page loading.",
   "scripts": {
@@ -7,10 +7,10 @@
     "prepublish": "npm run build"
   },
   "main": "index.js",
-  "homepage": "https://github.com/escaladesports/gatsby-page-load-delay",
+  "homepage": "https://github.com/escaladesports/gatsby-plugin-page-load-delay",
   "repository": {
     "type": "git",
-    "url": "https://github.com/escaladesports/gatsby-page-load-delay.git"
+    "url": "https://github.com/escaladesports/gatsby-plugin-page-load-delay.git"
   },
   "keywords": [
     "gatsby",
